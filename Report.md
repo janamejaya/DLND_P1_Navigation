@@ -18,7 +18,7 @@ This could be approximately summarized as:
 
 [State] -> [32] -> [16] -> [4] -> [1] ----------------------
 
-                   |                                |-[Number of actions]
+                   |                                |->[Number of actions]
                      
                   [4] -> [Number_of_actions] --------
                      
