@@ -15,7 +15,7 @@ The following dueling Q-network architecture was employed
 
 The neural network architecture could be summarized as below
 
-[State] -> [32] -> [16] -> [4] -> [1] -----------------
+[State] -> [32] -> [16] -> [4] -> [1] ----------------------
 
                      |                                |-[Number of actions]
                      
@@ -38,7 +38,7 @@ The neural network architecture could be summarized as below
 3. Update target network every : 4 steps
 
 #### Exprimental setup
-1. Maximum number of episodes : 2000
+1. Maximum number of episodes per experiment: 2000
 2. Maximum number of steps per episode : 1000
 3. Starting epsilon - 1.00
 4. Final epsilon - 0.01
