@@ -24,7 +24,7 @@ The neural network architecture could be summarized as below
 
 ### Parameters and Hyperparameter
 
-#### Reward signal
+#### Rewards
 1. Discount factor: 0.99
 
 #### Replay buffer
@@ -32,7 +32,7 @@ The neural network architecture could be summarized as below
 2. Buffer update frequency: every 4 steps
 3. Batch size drawn from buffer: 64
 
-#### Neural Network hyperparameters
+#### Neural Network hyperparameters for both networks
 1. Optimizer: Adam
 2. Learning rate for Optimizer: 0.0005
 3. Update target network every : 4 steps
@@ -43,6 +43,7 @@ The neural network architecture could be summarized as below
 3. Starting epsilon - 1.00
 4. Final epsilon - 0.01
 5. Epsilon decay factor - 0.995
+6. Number of experiments - 10
 
 ### Results
 A successful agent was defined to be one that achieves a reward of 13 or more averaged over the last 100 episodes of an experiment. The number of episodes and total time required to successfully complete the experiment was noted in order to get an quantify the success.
