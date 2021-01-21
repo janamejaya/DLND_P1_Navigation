@@ -16,7 +16,9 @@ The following dueling Q-network architecture was employed
 The neural network architecture could be summarized as below
 
 [State] -> [32] -> [16] -> [4] -> [1] -----------------
+
                      |                                |-[Number of actions]
+                     
                     [4] -> [Number_of_actions] --------
                      
 
