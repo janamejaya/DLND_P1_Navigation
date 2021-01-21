@@ -17,7 +17,6 @@ Since neural network optimization is a stochastic process, the experiment was re
 1. Number of episodes required for completion - 517.10 +/- 35.73
 2. Time (in seconds) required for completion - 814.99 +/- 57.70
 
-The success of the agent for each of these 10 experiments is displayed in the following figure
-<center><src="https://github.com/janamejaya/DLND_P1_Navigation/blob/main/result_score.jpg"></center>
+The success of the agent for each of these 10 experiments is displayed in the following ![figure](https://github.com/janamejaya/DLND_P1_Navigation/blob/main/result_score.jpg)
 
 The agents performance can be improved by including prioritized replay buffers, add noise to the network, including multi-step updates to the value function, and use a distribution of rewards as incorporated in [Rainbow](https://arxiv.org/abs/1710.02298)
